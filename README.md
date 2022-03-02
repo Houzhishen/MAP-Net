@@ -4,7 +4,9 @@ pytorch implementation of the paper ["Information Symmetry Matters: A Modal-Alte
 
 ![](./figs/MAP-Net.png)
 
-# How to run
+## Data preparation
+
+## How to run
 ```
 # train the model
 python train.py --dataset cub --backbone conv4 --nExemplars 1 --alpha 0.2 --miu 1 --drop_rate 0.5 --model_name map
@@ -17,5 +19,5 @@ python test.py --dataset cub --backbone conv4 --nExemplars 1 --alpha 0.2 --miu 1
 python test.py --dataset cub --backbone conv4 --nExemplars 5 --alpha 0.3 --miu 0.4 --drop_rate 0.5 --model_name map
 ```
 
-# Acknowledge
+## Acknowledge
 
