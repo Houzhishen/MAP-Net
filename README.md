@@ -6,7 +6,6 @@ pytorch implementation of the paper ["Information Symmetry Matters: A Modal-Alte
 
 # How to run
 ```
-
 # train the model
 python train.py --dataset cub --backbone conv4 --nExemplars 1 --alpha 0.2 --miu 1 --drop_rate 0.5 --model_name map
 
@@ -16,7 +15,6 @@ python train.py --dataset sun --backbone conv4 --nExemplars 5 --alpha 0.3 --miu 
 python test.py --dataset cub --backbone conv4 --nExemplars 1 --alpha 0.2 --miu 1 --drop_rate 0.5 --model_name map
 
 python test.py --dataset cub --backbone conv4 --nExemplars 5 --alpha 0.3 --miu 0.4 --drop_rate 0.5 --model_name map
-
 ```
 
 # Acknowledge
