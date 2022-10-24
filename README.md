@@ -6,6 +6,8 @@ pytorch implementation of the paper ["Information Symmetry Matters: A Modal-Alte
 
 ## Data preparation
 
+[Datasets Download](https://drive.google.com/drive/folders/173LGj9soq7SS1FEdVD93SUrXtylAYU9I?usp=sharing)
+
 ## How to run
 ```
 # train the model
